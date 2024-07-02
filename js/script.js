@@ -8,8 +8,7 @@ const lista = document.getElementById('lista');
 let i = 0;
 
 //ciclo l'arrey 
-while (i < prodotti.length - 1) {
-    i++
+while (i < prodotti.length) {
 
     //creo un nuovo list item
     const li = document.createElement('li');
@@ -18,5 +17,7 @@ while (i < prodotti.length - 1) {
 
     //metto infine il list item dentro la lista spesa
     lista.append(li);
+
+    i++
     console.log(prodotti[i])
 }
