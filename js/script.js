@@ -7,3 +7,7 @@ const lista = document.getElementById('lista');
 //aggiungo una variabile con assegnazione di default 0
 let i = 0;
 
+//ciclo l'arrey 
+while (i < prodotti.length - 1) {
+    i++
+}
