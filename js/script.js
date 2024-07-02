@@ -10,4 +10,10 @@ let i = 0;
 //ciclo l'arrey 
 while (i < prodotti.length - 1) {
     i++
+
+    //creo un nuovo list item
+    const li = document.createElement('li');
+    //dentro la list item aggiungo [i] della array prodotti
+    li.innerText = prodotti[i];
+
 }
