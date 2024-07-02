@@ -7,8 +7,10 @@ Buon lavoro!
 
 2 recupero l'elemento che deve contenere la mia lista
 
-3 ciclo l'arrey 
+3 aggiungo una variabile con assegnazione di default 0
 
-4 creo un nuovo list item dove metto il testo all'interno
+4 ciclo l'arrey 
 
-5 metto infine il list item dentro la lista spesa
+5 creo un nuovo list item dove metto il testo all'interno
+
+6 metto infine il list item dentro la lista spesa
