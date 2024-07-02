@@ -12,6 +12,7 @@ while (i < prodotti.length) {
 
     //creo un nuovo list item
     const li = document.createElement('li');
+    console.log(prodotti[i])
     //dentro la list item aggiungo [i] della array prodotti
     li.innerText = prodotti[i];
 
@@ -19,5 +20,5 @@ while (i < prodotti.length) {
     lista.append(li);
 
     i++
-    console.log(prodotti[i])
+
 }
