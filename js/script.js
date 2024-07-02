@@ -16,4 +16,7 @@ while (i < prodotti.length - 1) {
     //dentro la list item aggiungo [i] della array prodotti
     li.innerText = prodotti[i];
 
+    //metto infine il list item dentro la lista spesa
+    lista.append(li);
+    console.log(prodotti[i])
 }
